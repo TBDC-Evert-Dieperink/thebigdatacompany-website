@@ -22,13 +22,12 @@ Geen passende vacature gezien maar wel benieuwd? Stuur een open sollicitatie. We
 
 ## Wat we bieden
 
-- Marktconform salaris + winstdeling
-- 28 vakantiedagen
-- Pensioenregeling
-- Lease-fiets of NS Business Card
-- Macbook of Linux-laptop, jouw keuze
-- Vrijdag-borrels, kwartaal-uitjes, jaarlijkse trip
-- Ruimte om aan eigen projecten te werken en bij te dragen aan open source
+- Marktconform salaris met winstdeling
+- Hybride werken vanuit ons kantoor in Amsterdam
+- Flexibele werktijden
+- Lunch op kantoor
+- Internationale zakenreizen voor klanten in 25 markten
+- Uitjes wanneer iemand een leuk idee heeft, van borrels tot weekendtrips
 
 ## Solliciteren
 

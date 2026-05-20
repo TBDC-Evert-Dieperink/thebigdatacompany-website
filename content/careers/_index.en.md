@@ -22,13 +22,12 @@ Don't see a matching role but still interested? Send an open application. We're 
 
 ## What we offer
 
-- Competitive salary + profit sharing
-- 28 vacation days
-- Pension scheme
-- Lease bike or NS Business Card (public transport)
-- Macbook or Linux laptop, your choice
-- Friday drinks, quarterly outings, annual trip
-- Time to work on your own projects and contribute to open source
+- Competitive salary with profit sharing
+- Hybrid working from our Amsterdam office
+- Flexible hours
+- Lunch at the office
+- International travel to clients across 25 markets
+- Outings whenever someone has a good idea, from drinks to weekend trips
 
 ## How to apply
 
