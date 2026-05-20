@@ -1,0 +1,1 @@
+{{ $logo := resources.Get "img/logo.svg" }}{{ if $logo }}{{ $logo.Content | safeHTML }}{{ end }}

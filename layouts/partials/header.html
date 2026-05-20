@@ -1,15 +1,7 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a href="{{ "/" | relLangURL }}" class="logo">
-      <span class="logo-mark" aria-hidden="true">
-        <svg viewBox="0 0 32 32" width="28" height="28">
-          <polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
-          <polygon points="16,9 23,13 23,21 16,25 9,21 9,13" fill="currentColor" opacity="0.85"/>
-        </svg>
-      </span>
-      <span class="logo-text">
-        <span class="logo-main">The Big Data Company</span>
-      </span>
+    <a href="{{ "/" | relLangURL }}" class="logo" aria-label="The Big Data Company">
+      {{ partial "logo-inline.html" . }}
     </a>
 
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
