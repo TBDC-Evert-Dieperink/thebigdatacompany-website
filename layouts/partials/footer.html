@@ -7,22 +7,23 @@
       <p class="footer-tagline">{{ .Site.Params.tagline }}</p>
     </div>
 
+    {{ $products := .Site.GetPage "/products" }}
     <div class="footer-col">
       <h4>{{ if eq .Site.Language.Lang "nl" }}Producten{{ else }}Products{{ end }}</h4>
       <ul>
         <li><a href="https://irisplatform.nl" target="_blank" rel="noopener">IRIS Platform</a></li>
-        <li><a href="{{ "/products/#blink" | relLangURL }}">Blink</a></li>
-        <li><a href="{{ "/products/#rri" | relLangURL }}">RRI</a></li>
-        <li><a href="{{ "/products/#spatial-embeddings" | relLangURL }}">{{ if eq .Site.Language.Lang "nl" }}Spatiale embeddings{{ else }}Spatial embeddings{{ end }}</a></li>
+        <li><a href="{{ $products.RelPermalink }}#blink">Blink</a></li>
+        <li><a href="{{ $products.RelPermalink }}#rri">RRI</a></li>
+        <li><a href="{{ $products.RelPermalink }}#spatial-embeddings">{{ if eq .Site.Language.Lang "nl" }}Spatiale embeddings{{ else }}Spatial embeddings{{ end }}</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
       <h4>{{ if eq .Site.Language.Lang "nl" }}Bedrijf{{ else }}Company{{ end }}</h4>
       <ul>
-        <li><a href="{{ "/about" | relLangURL }}">{{ if eq .Site.Language.Lang "nl" }}Wie we zijn{{ else }}Who we are{{ end }}</a></li>
-        <li><a href="{{ "/careers" | relLangURL }}">{{ if eq .Site.Language.Lang "nl" }}Werken bij{{ else }}Careers{{ end }}</a></li>
-        <li><a href="{{ "/contact" | relLangURL }}">Contact</a></li>
+        <li><a href="{{ (.Site.GetPage "/about").RelPermalink }}">{{ if eq .Site.Language.Lang "nl" }}Wie we zijn{{ else }}Who we are{{ end }}</a></li>
+        <li><a href="{{ (.Site.GetPage "/careers").RelPermalink }}">{{ if eq .Site.Language.Lang "nl" }}Werken bij{{ else }}Careers{{ end }}</a></li>
+        <li><a href="{{ (.Site.GetPage "/contact").RelPermalink }}">Contact</a></li>
       </ul>
     </div>
 

@@ -18,10 +18,10 @@
         {{ end }}
       </p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="{{ "/products" | relLangURL }}">
+        <a class="btn btn-primary" href="{{ (.Site.GetPage "/products").RelPermalink }}">
           {{ if eq .Site.Language.Lang "nl" }}Bekijk onze producten{{ else }}See our products{{ end }}
         </a>
-        <a class="btn btn-ghost" href="{{ "/contact" | relLangURL }}">
+        <a class="btn btn-ghost" href="{{ (.Site.GetPage "/contact").RelPermalink }}">
           {{ if eq .Site.Language.Lang "nl" }}Neem contact op{{ else }}Get in touch{{ end }} →
         </a>
       </div>
@@ -115,14 +115,14 @@
         <div class="product-tag">{{ if eq .Site.Language.Lang "nl" }}Zelfbediening{{ else }}Self-serve{{ end }}</div>
         <h3>Blink</h3>
         <p>{{ if eq .Site.Language.Lang "nl" }}Dezelfde AI, dezelfde data-infrastructuur. Een fractie van de investering. Voor groeiende merken die nu willen starten.{{ else }}Same AI, same data infrastructure. A fraction of the investment. For growing brands who want to start today.{{ end }}</p>
-        <a class="link-arrow" href="{{ "/products/#blink" | relLangURL }}">{{ if eq .Site.Language.Lang "nl" }}Meer over Blink{{ else }}More about Blink{{ end }} →</a>
+        <a class="link-arrow" href="{{ (.Site.GetPage "/products").RelPermalink }}#blink">{{ if eq .Site.Language.Lang "nl" }}Meer over Blink{{ else }}More about Blink{{ end }} →</a>
       </article>
 
       <article class="product-card">
         <div class="product-tag">{{ if eq .Site.Language.Lang "nl" }}Risico-index{{ else }}Risk index{{ end }}</div>
         <h3>RRI</h3>
         <p>{{ if eq .Site.Language.Lang "nl" }}Retail Risk Index voor 300.000+ winkelpanden in Nederland en België. Risico-scores voor elke locatie.{{ else }}Retail Risk Index for 300,000+ retail properties in the Netherlands and Belgium. Risk scores for every location.{{ end }}</p>
-        <a class="link-arrow" href="{{ "/products/#rri" | relLangURL }}">{{ if eq .Site.Language.Lang "nl" }}Meer over RRI{{ else }}More about RRI{{ end }} →</a>
+        <a class="link-arrow" href="{{ (.Site.GetPage "/products").RelPermalink }}#rri">{{ if eq .Site.Language.Lang "nl" }}Meer over RRI{{ else }}More about RRI{{ end }} →</a>
       </article>
     </div>
   </div>
@@ -150,7 +150,7 @@
   <div class="container cta-inner">
     <h2>{{ if eq .Site.Language.Lang "nl" }}Klaar om met data betere beslissingen te nemen?{{ else }}Ready to make better decisions with data?{{ end }}</h2>
     <p>{{ if eq .Site.Language.Lang "nl" }}Plan een gratis consult van een uur met een van onze consultants.{{ else }}Book a free one-hour consult with one of our consultants.{{ end }}</p>
-    <a class="btn btn-primary btn-large" href="{{ "/contact" | relLangURL }}">{{ if eq .Site.Language.Lang "nl" }}Plan een consult{{ else }}Book a consult{{ end }}</a>
+    <a class="btn btn-primary btn-large" href="{{ (.Site.GetPage "/contact").RelPermalink }}">{{ if eq .Site.Language.Lang "nl" }}Plan een consult{{ else }}Book a consult{{ end }}</a>
   </div>
 </section>
 {{ end }}

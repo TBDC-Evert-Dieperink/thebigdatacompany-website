@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a href="{{ "/" | relLangURL }}" class="logo" aria-label="The Big Data Company">
+    <a href="{{ .Site.Home.RelPermalink }}" class="logo" aria-label="The Big Data Company">
       {{ partial "logo-inline.html" . }}
     </a>
 
@@ -11,8 +11,10 @@
     <nav class="site-nav" aria-label="{{ if eq .Site.Language.Lang "nl" }}Hoofdmenu{{ else }}Main navigation{{ end }}">
       <ul>
         {{ range .Site.Menus.main }}
+          {{ $url := "" }}
+          {{ with .Page }}{{ $url = .RelPermalink }}{{ else }}{{ $url = .URL }}{{ end }}
           {{ $current := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
-          <li><a href="{{ .URL | relLangURL }}"{{ if $current }} class="active" aria-current="page"{{ end }}>{{ .Name }}</a></li>
+          <li><a href="{{ $url }}"{{ if $current }} class="active" aria-current="page"{{ end }}>{{ .Name }}</a></li>
         {{ end }}
       </ul>
       <div class="lang-switch">
@@ -21,15 +23,16 @@
           {{ if eq $lang.Lang $.Site.Language.Lang }}
             <span class="lang-current">{{ $lang.LanguageName }}</span>
           {{ else }}
-            {{ with $.Translations }}
-              {{ range . }}
-                {{ if eq .Site.Language.Lang $lang.Lang }}
-                  <a href="{{ .RelPermalink }}" hreflang="{{ $lang.Lang }}">{{ $lang.LanguageName }}</a>
-                {{ end }}
-              {{ end }}
-            {{ else }}
-              <a href="{{ "/" | relLangURL }}{{ if ne $lang.Lang $.Site.Language.Lang }}{{ end }}" hreflang="{{ $lang.Lang }}">{{ $lang.LanguageName }}</a>
+            {{ $href := "" }}
+            {{ range $.Translations }}
+              {{ if eq .Site.Language.Lang $lang.Lang }}{{ $href = .RelPermalink }}{{ end }}
             {{ end }}
+            {{ if not $href }}
+              {{ range $.Site.Home.AllTranslations }}
+                {{ if eq .Site.Language.Lang $lang.Lang }}{{ $href = .RelPermalink }}{{ end }}
+              {{ end }}
+            {{ end }}
+            {{ if $href }}<a href="{{ $href }}" hreflang="{{ $lang.Lang }}">{{ $lang.LanguageName }}</a>{{ end }}
           {{ end }}
         {{ end }}
       </div>
