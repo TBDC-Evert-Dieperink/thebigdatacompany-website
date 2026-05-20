@@ -18,10 +18,6 @@ Voor algemene vragen, offertes en samenwerkingen.
 
 Voor sollicitaties en open vragen over onze openstaande rollen.
 
-### Pers & media
-
-[press@thebigdatacompany.nl](mailto:press@thebigdatacompany.nl)
-
 </div>
 <div>
 

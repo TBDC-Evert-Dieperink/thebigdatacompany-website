@@ -18,10 +18,6 @@ For general enquiries, quotes and partnerships.
 
 For applications and open questions about our roles.
 
-### Press & media
-
-[press@thebigdatacompany.nl](mailto:press@thebigdatacompany.nl)
-
 </div>
 <div>
 
