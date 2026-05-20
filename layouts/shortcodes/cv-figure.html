@@ -1,0 +1,7 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $caption := .Get "caption" -}}
+<figure class="cv-figure">
+  <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
+  {{- with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

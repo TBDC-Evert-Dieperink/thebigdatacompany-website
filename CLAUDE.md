@@ -41,6 +41,12 @@ Use page lookups instead:
 
 External URLs and `mailto:` / `tel:` links can stay as plain `href` values.
 
+For images in markdown content (where Hugo templating isn't available directly),
+use the [cv-figure](layouts/shortcodes/cv-figure.html) shortcode (or write a
+similar one) so the `src` runs through `relURL`. A raw `<img src="/img/...">`
+in markdown looks fine locally but 404s on GitHub Pages because the leading
+slash skips the project subpath, same root cause as `relLangURL`.
+
 ## Writing style
 
 - No em-dashes (`—`, U+2014) or en-dashes (`–`, U+2013) in user-facing content.
