@@ -1,0 +1,156 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-content">
+      <span class="eyebrow">{{ if eq .Site.Language.Lang "nl" }}Data science & AI boutique · Amsterdam{{ else }}Data science & AI boutique · Amsterdam{{ end }}</span>
+      <h1>
+        {{ if eq .Site.Language.Lang "nl" }}
+          Kunstmatige intelligentie,<br><span class="accent">zonder de hete lucht.</span>
+        {{ else }}
+          Artificial intelligence,<br><span class="accent">without the hot air.</span>
+        {{ end }}
+      </h1>
+      <p class="hero-lead">
+        {{ if eq .Site.Language.Lang "nl" }}
+          Wij bouwen pragmatische data science en AI-oplossingen voor bedrijven wereldwijd — groot en klein. Onze specialiteit: geospatiale intelligentie.
+        {{ else }}
+          We build pragmatic data science and AI solutions for companies worldwide — large and small. Our specialty: geospatial intelligence.
+        {{ end }}
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ "/products" | relLangURL }}">
+          {{ if eq .Site.Language.Lang "nl" }}Bekijk onze producten{{ else }}See our products{{ end }}
+        </a>
+        <a class="btn btn-ghost" href="{{ "/contact" | relLangURL }}">
+          {{ if eq .Site.Language.Lang "nl" }}Neem contact op{{ else }}Get in touch{{ end }} →
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      {{ partial "hex-grid.html" . }}
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat">
+      <span class="stat-value">25</span>
+      <span class="stat-label">{{ if eq .Site.Language.Lang "nl" }}markten wereldwijd{{ else }}markets worldwide{{ end }}</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">90<small>%</small></span>
+      <span class="stat-label">{{ if eq .Site.Language.Lang "nl" }}voorspelnauwkeurigheid{{ else }}forecast accuracy{{ end }}</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">10<small>+</small></span>
+      <span class="stat-label">{{ if eq .Site.Language.Lang "nl" }}jaar ervaring{{ else }}years of experience{{ end }}</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">260<small>+</small></span>
+      <span class="stat-label">{{ if eq .Site.Language.Lang "nl" }}data-signalen per locatie{{ else }}data signals per location{{ end }}</span>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">{{ if eq .Site.Language.Lang "nl" }}Wat we doen{{ else }}What we do{{ end }}</span>
+      <h2>{{ if eq .Site.Language.Lang "nl" }}Klein genoeg om snel te schakelen. Diep genoeg om gelijk te hebben.{{ else }}Small enough to move fast. Deep enough to be right.{{ end }}</h2>
+      <p>
+        {{ if eq .Site.Language.Lang "nl" }}
+          Een zes-koppig kernteam van data scientists, AI engineers en geospatial experts. We werken voor grote merken als McDonald's, SPAR en EssilorLuxottica — én voor groeiende bedrijven die net hun eerste data-investering doen.
+        {{ else }}
+          A six-person core team of data scientists, AI engineers and geospatial experts. We work with global brands like McDonald's, SPAR and EssilorLuxottica — and with growing companies making their first data investment.
+        {{ end }}
+      </p>
+    </div>
+
+    <div class="card-grid card-grid-3">
+      <article class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="10" r="3"/><path d="M12 2a8 8 0 0 0-8 8c0 5.5 8 12 8 12s8-6.5 8-12a8 8 0 0 0-8-8z"/></svg>
+        </div>
+        <h3>{{ if eq .Site.Language.Lang "nl" }}Geospatial AI{{ else }}Geospatial AI{{ end }}</h3>
+        <p>{{ if eq .Site.Language.Lang "nl" }}Locatie-intelligentie, omzetvoorspelling, catchment-analyse en netwerkoptimalisatie voor retail, QSR en logistiek.{{ else }}Location intelligence, revenue forecasting, catchment analysis and network optimisation for retail, QSR and logistics.{{ end }}</p>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+        </div>
+        <h3>{{ if eq .Site.Language.Lang "nl" }}Maatwerk data science{{ else }}Custom data science{{ end }}</h3>
+        <p>{{ if eq .Site.Language.Lang "nl" }}Forecasting modellen, classifiers en optimalisatie — gebouwd op uw eigen data, in nauwe samenwerking met uw domeinexperts.{{ else }}Forecasting models, classifiers and optimisation — built on your own data, in close collaboration with your domain experts.{{ end }}</p>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <h3>{{ if eq .Site.Language.Lang "nl" }}Computer vision{{ else }}Computer vision{{ end }}</h3>
+        <p>{{ if eq .Site.Language.Lang "nl" }}Beeldherkenning voor winkelpuien, productdetectie en automatisering van arbeidsintensief veldwerk.{{ else }}Image recognition for storefronts, product detection and automation of labour-intensive fieldwork.{{ end }}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head section-head-left">
+      <span class="eyebrow">{{ if eq .Site.Language.Lang "nl" }}Onze producten{{ else }}Our products{{ end }}</span>
+      <h2>{{ if eq .Site.Language.Lang "nl" }}Van vlaggenschip-platform tot zelfbediening.{{ else }}From flagship platform to self-serve.{{ end }}</h2>
+    </div>
+
+    <div class="product-row">
+      <article class="product-card product-card-feature">
+        <div class="product-tag">{{ if eq .Site.Language.Lang "nl" }}Vlaggenschip{{ else }}Flagship{{ end }}</div>
+        <h3>IRIS</h3>
+        <p class="product-sub">Interactive Retail Intelligence Scout</p>
+        <p>{{ if eq .Site.Language.Lang "nl" }}Het locatie-intelligentieplatform dat McDonald's, SPAR en EssilorLuxottica gebruiken voor wereldwijde expansiebeslissingen. Tot 90% voorspelnauwkeurigheid.{{ else }}The location intelligence platform McDonald's, SPAR and EssilorLuxottica use for worldwide expansion decisions. Up to 90% forecast accuracy.{{ end }}</p>
+        <a class="btn btn-primary" href="https://irisplatform.nl" target="_blank" rel="noopener">irisplatform.nl →</a>
+      </article>
+
+      <article class="product-card">
+        <div class="product-tag">{{ if eq .Site.Language.Lang "nl" }}Zelfbediening{{ else }}Self-serve{{ end }}</div>
+        <h3>Blink</h3>
+        <p>{{ if eq .Site.Language.Lang "nl" }}Dezelfde AI, dezelfde data-infrastructuur. Een fractie van de investering. Voor groeiende merken die nu willen starten.{{ else }}Same AI, same data infrastructure. A fraction of the investment. For growing brands who want to start today.{{ end }}</p>
+        <a class="link-arrow" href="{{ "/products/#blink" | relLangURL }}">{{ if eq .Site.Language.Lang "nl" }}Meer over Blink{{ else }}More about Blink{{ end }} →</a>
+      </article>
+
+      <article class="product-card">
+        <div class="product-tag">{{ if eq .Site.Language.Lang "nl" }}Risico-index{{ else }}Risk index{{ end }}</div>
+        <h3>RRI</h3>
+        <p>{{ if eq .Site.Language.Lang "nl" }}Retail Risk Index voor 300.000+ winkelpanden in Nederland en België. Risico-scores voor elke locatie.{{ else }}Retail Risk Index for 300,000+ retail properties in the Netherlands and Belgium. Risk scores for every location.{{ end }}</p>
+        <a class="link-arrow" href="{{ "/products/#rri" | relLangURL }}">{{ if eq .Site.Language.Lang "nl" }}Meer over RRI{{ else }}More about RRI{{ end }} →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-head section-head-center">
+      <span class="eyebrow">{{ if eq .Site.Language.Lang "nl" }}Vertrouwd door{{ else }}Trusted by{{ end }}</span>
+      <h2>{{ if eq .Site.Language.Lang "nl" }}Succesvolle merken bouwen met onze data.{{ else }}Successful brands build with our data.{{ end }}</h2>
+    </div>
+    <ul class="client-list">
+      <li>McDonald's</li>
+      <li>SPAR</li>
+      <li>EssilorLuxottica</li>
+      <li>MyWheels</li>
+      <li>Sameday</li>
+      <li>Zeeman</li>
+      <li>GrandVision</li>
+    </ul>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta-inner">
+    <h2>{{ if eq .Site.Language.Lang "nl" }}Klaar om met data betere beslissingen te nemen?{{ else }}Ready to make better decisions with data?{{ end }}</h2>
+    <p>{{ if eq .Site.Language.Lang "nl" }}Plan een gratis consult van een uur met een van onze consultants.{{ else }}Book a free one-hour consult with one of our consultants.{{ end }}</p>
+    <a class="btn btn-primary btn-large" href="{{ "/contact" | relLangURL }}">{{ if eq .Site.Language.Lang "nl" }}Plan een consult{{ else }}Book a consult{{ end }}</a>
+  </div>
+</section>
+{{ end }}

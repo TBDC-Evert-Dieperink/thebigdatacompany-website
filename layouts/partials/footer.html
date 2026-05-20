@@ -1,0 +1,62 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="24" height="24">
+            <polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+            <polygon points="16,9 23,13 23,21 16,25 9,21 9,13" fill="currentColor" opacity="0.85"/>
+          </svg>
+        </span>
+        <span class="logo-text">The Big Data Company</span>
+      </div>
+      <p class="footer-tagline">{{ .Site.Params.tagline }}</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>{{ if eq .Site.Language.Lang "nl" }}Producten{{ else }}Products{{ end }}</h4>
+      <ul>
+        <li><a href="https://irisplatform.nl" target="_blank" rel="noopener">IRIS Platform</a></li>
+        <li><a href="{{ "/products/#blink" | relLangURL }}">Blink</a></li>
+        <li><a href="{{ "/products/#rri" | relLangURL }}">RRI</a></li>
+        <li><a href="{{ "/products/#spatial-embeddings" | relLangURL }}">{{ if eq .Site.Language.Lang "nl" }}Spatiale embeddings{{ else }}Spatial embeddings{{ end }}</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>{{ if eq .Site.Language.Lang "nl" }}Bedrijf{{ else }}Company{{ end }}</h4>
+      <ul>
+        <li><a href="{{ "/about" | relLangURL }}">{{ if eq .Site.Language.Lang "nl" }}Wie we zijn{{ else }}Who we are{{ end }}</a></li>
+        <li><a href="{{ "/careers" | relLangURL }}">{{ if eq .Site.Language.Lang "nl" }}Werken bij{{ else }}Careers{{ end }}</a></li>
+        <li><a href="{{ "/contact" | relLangURL }}">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>{{ if eq .Site.Language.Lang "nl" }}Contact{{ else }}Contact{{ end }}</h4>
+      <address>
+        Mr. Treublaan 7<br>
+        1097 DP Amsterdam<br>
+        {{ if eq .Site.Language.Lang "nl" }}Nederland{{ else }}The Netherlands{{ end }}
+      </address>
+      <p><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+      <p><a href="{{ .Site.Params.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; {{ now.Format "2006" }} The Big Data Company B.V.</span>
+    <span>KvK 12345678</span>
+  </div>
+</footer>
+
+<script>
+  (function() {
+    const btn = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open);
+    });
+  })();
+</script>

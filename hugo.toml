@@ -1,0 +1,82 @@
+baseURL = 'https://tbdc-evert-dieperink.github.io/thebigdatacompany-website/'
+title = 'The Big Data Company'
+defaultContentLanguage = 'nl'
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+
+[params]
+  email = "info@thebigdatacompany.nl"
+  address = "Mr. Treublaan 7, 1097 DP Amsterdam"
+  linkedin = "https://www.linkedin.com/company/the-big-data-company-bv"
+
+[languages]
+  [languages.nl]
+    languageName = 'NL'
+    languageCode = 'nl-NL'
+    weight = 1
+    title = 'The Big Data Company'
+    [languages.nl.params]
+      tagline = 'Kunstmatige intelligentie, zonder de hete lucht.'
+      description = 'Boutique data science en AI bureau. Geospatiale intelligentie voor retail, QSR en logistiek.'
+  [languages.en]
+    languageName = 'EN'
+    languageCode = 'en-GB'
+    weight = 2
+    title = 'The Big Data Company'
+    [languages.en.params]
+      tagline = 'Artificial intelligence, without the hot air.'
+      description = 'Boutique data science and AI firm. Geospatial intelligence for retail, QSR and logistics.'
+
+[languages.nl.menu]
+  [[languages.nl.menu.main]]
+    name = 'Wie we zijn'
+    pageRef = '/about'
+    weight = 10
+  [[languages.nl.menu.main]]
+    name = 'Wat we doen'
+    pageRef = '/services'
+    weight = 20
+  [[languages.nl.menu.main]]
+    name = 'Producten'
+    pageRef = '/products'
+    weight = 30
+  [[languages.nl.menu.main]]
+    name = 'Werken bij'
+    pageRef = '/careers'
+    weight = 40
+  [[languages.nl.menu.main]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 50
+
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    name = 'Who we are'
+    pageRef = '/about'
+    weight = 10
+  [[languages.en.menu.main]]
+    name = 'What we do'
+    pageRef = '/services'
+    weight = 20
+  [[languages.en.menu.main]]
+    name = 'Products'
+    pageRef = '/products'
+    weight = 30
+  [[languages.en.menu.main]]
+    name = 'Careers'
+    pageRef = '/careers'
+    weight = 40
+  [[languages.en.menu.main]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ['HTML']
+  page = ['HTML']
+  section = ['HTML']

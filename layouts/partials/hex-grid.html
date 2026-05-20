@@ -1,0 +1,26 @@
+<div class="hex-visual">
+  <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" class="hex-svg">
+    <defs>
+      <pattern id="hexpat" x="0" y="0" width="60" height="52" patternUnits="userSpaceOnUse">
+        <polygon points="30,2 56,16 56,42 30,56 4,42 4,16" fill="none" stroke="currentColor" stroke-width="1" opacity="0.18"/>
+      </pattern>
+      <radialGradient id="hexfade" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+        <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+      </radialGradient>
+      <mask id="hexmask">
+        <rect width="400" height="400" fill="url(#hexfade)"/>
+      </mask>
+    </defs>
+    <rect width="400" height="400" fill="url(#hexpat)" mask="url(#hexmask)"/>
+    <g class="hex-highlights">
+      <polygon points="170,100 196,114 196,140 170,154 144,140 144,114" class="hex-h1" fill="currentColor" opacity="0.85"/>
+      <polygon points="230,140 256,154 256,180 230,194 204,180 204,154" class="hex-h2" fill="currentColor" opacity="0.55"/>
+      <polygon points="200,200 226,214 226,240 200,254 174,240 174,214" class="hex-h3" fill="currentColor" opacity="0.95"/>
+      <polygon points="140,200 166,214 166,240 140,254 114,240 114,214" class="hex-h4" fill="currentColor" opacity="0.35"/>
+      <polygon points="260,200 286,214 286,240 260,254 234,240 234,214" class="hex-h5" fill="currentColor" opacity="0.45"/>
+      <polygon points="170,260 196,274 196,300 170,314 144,300 144,274" class="hex-h6" fill="currentColor" opacity="0.65"/>
+      <polygon points="230,260 256,274 256,300 230,314 204,300 204,274" class="hex-h7" fill="currentColor" opacity="0.3"/>
+    </g>
+  </svg>
+</div>

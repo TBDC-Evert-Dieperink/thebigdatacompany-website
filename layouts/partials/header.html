@@ -1,0 +1,46 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="{{ "/" | relLangURL }}" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28">
+          <polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+          <polygon points="16,9 23,13 23,21 16,25 9,21 9,13" fill="currentColor" opacity="0.85"/>
+        </svg>
+      </span>
+      <span class="logo-text">
+        <span class="logo-main">The Big Data Company</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="{{ if eq .Site.Language.Lang "nl" }}Hoofdmenu{{ else }}Main navigation{{ end }}">
+      <ul>
+        {{ range .Site.Menus.main }}
+          {{ $current := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+          <li><a href="{{ .URL | relLangURL }}"{{ if $current }} class="active" aria-current="page"{{ end }}>{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+      <div class="lang-switch">
+        {{ range .Site.Languages }}
+          {{ $lang := . }}
+          {{ if eq $lang.Lang $.Site.Language.Lang }}
+            <span class="lang-current">{{ $lang.LanguageName }}</span>
+          {{ else }}
+            {{ with $.Translations }}
+              {{ range . }}
+                {{ if eq .Site.Language.Lang $lang.Lang }}
+                  <a href="{{ .RelPermalink }}" hreflang="{{ $lang.Lang }}">{{ $lang.LanguageName }}</a>
+                {{ end }}
+              {{ end }}
+            {{ else }}
+              <a href="{{ "/" | relLangURL }}{{ if ne $lang.Lang $.Site.Language.Lang }}{{ end }}" hreflang="{{ $lang.Lang }}">{{ $lang.LanguageName }}</a>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </nav>
+  </div>
+</header>

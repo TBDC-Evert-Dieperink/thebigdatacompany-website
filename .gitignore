@@ -1,0 +1,22 @@
+# Hugo build artefacts
+/public/
+/resources/
+.hugo_build.lock
+
+# Hugo cache
+/.cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local environment
+.env
+.env.local
+
+# Claude Code per-developer settings
+.claude/settings.local.json
