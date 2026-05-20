@@ -38,7 +38,7 @@ Not every problem needs an AI solution. We help you decide where AI genuinely ad
 
 - **Data audit**: what you have, what's missing, what can go.
 - **AI strategy**: roadmap, prioritisation, business case.
-- **Proof-of-concepts**: 4–16 hour sprint to validate a hypothesis.
+- **Proof-of-concepts**: 4-16 hour sprint to validate a hypothesis.
 - **MLOps**: production model architecture, deployment, monitoring.
 
 ## How we start

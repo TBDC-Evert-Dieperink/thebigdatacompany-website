@@ -43,8 +43,9 @@ External URLs and `mailto:` / `tel:` links can stay as plain `href` values.
 
 ## Writing style
 
-- No em-dashes (`—`) in user-facing content. Use a colon after a bold list-item
-  lead (`**Term**: definition`) and a comma in running prose.
+- No em-dashes (`—`, U+2014) or en-dashes (`–`, U+2013) in user-facing content.
+  After a bold list-item lead use `:` (`**Term**: definition`); in running prose
+  use `,`; in number ranges use a plain hyphen (`4-16`).
 - The page-title separator in `<title>` uses the middle dot `·`.
 
 ## Brand

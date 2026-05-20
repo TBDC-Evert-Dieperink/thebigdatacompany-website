@@ -38,7 +38,7 @@ Niet elk probleem heeft een AI-oplossing nodig. We helpen u te bepalen waar AI Ã
 
 - **Data audit**: wat heeft u, wat mist u, wat kan eruit?
 - **AI strategie**: roadmap, prioritering, business case.
-- **Proof-of-concepts**: 4â€“16 uur sprint om een hypothese te valideren.
+- **Proof-of-concepts**: 4-16 uur sprint om een hypothese te valideren.
 - **MLOps**: productie-modelarchitectuur, deployment, monitoring.
 
 ## Hoe we starten
