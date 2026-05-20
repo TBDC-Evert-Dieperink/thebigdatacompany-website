@@ -96,4 +96,9 @@ The key difference: our model understands **people, behaviour and economic activ
 
 We've delivered multiple computer vision projects in the past, mostly to automate manual fieldwork in retail. Examples include street-imagery analysis to automatically detect storefront names, opening hours and interior features, or product recognition on retail shelves. Today, we combine this technology with our geospatial models where it adds value.
 
+<figure class="cv-figure">
+  <img src="/img/cv-storefront-detection.png" alt="Computer vision model detecting storefronts on a panoramic street-view image, with green bounding boxes around each shop." loading="lazy">
+  <figcaption>Storefront detection on a 360° street view: our model recognises and locates every storefront automatically.</figcaption>
+</figure>
+
 </div>

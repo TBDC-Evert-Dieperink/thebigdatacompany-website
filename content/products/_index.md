@@ -96,4 +96,9 @@ Het cruciale verschil: ons model begrijpt **mensen, gedrag en economische activi
 
 We hebben in het verleden meerdere computer vision-projecten geleverd, vooral voor het automatiseren van handmatig veldwerk in retail. Denk aan straatbeeld-analyse om winkelnamen, openingstijden en interieurkenmerken automatisch te detecteren, of productherkenning op winkelschap. Vandaag combineren we deze technologie met onze geospatiale modellen waar dat zinvol is.
 
+<figure class="cv-figure">
+  <img src="/img/cv-storefront-detection.png" alt="Computer vision-model detecteert winkelpuien op een panoramische straatbeeldfoto, met groene bounding boxes rond elke winkel." loading="lazy">
+  <figcaption>Winkelpui-detectie op een 360°-streetview: ons model herkent en lokaliseert elke storefront automatisch.</figcaption>
+</figure>
+
 </div>

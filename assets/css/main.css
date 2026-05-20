@@ -543,6 +543,23 @@ p { margin: 0 0 1.25em; }
   letter-spacing: 0.1em;
 }
 
+.prose .cv-figure {
+  margin: 1.5em 0 0;
+}
+.prose .cv-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  display: block;
+  background: #000;
+}
+.prose .cv-figure figcaption {
+  font-size: 0.9rem;
+  color: var(--c-text-muted);
+  margin-top: 0.6rem;
+  font-style: italic;
+}
+
 .prose .feature-list {
   list-style: none;
   padding: 0;
