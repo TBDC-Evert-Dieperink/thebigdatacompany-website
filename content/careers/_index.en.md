@@ -1,6 +1,6 @@
 ---
 title: "Careers"
-lead: "Small team, big impact. We work with multinationals and with growing brands — from Amsterdam."
+lead: "Small team, big impact. We work with multinationals and with growing brands, from Amsterdam."
 ---
 
 ## Why The Big Data Company?
@@ -13,10 +13,10 @@ We work hybrid from our office in Amsterdam (Mr. Treublaan 7), with regular cust
 
 We grow carefully. At the moment we're mainly interested in:
 
-- **Geospatial data scientist** — experience with H3, GIS, and transformer models. Python, PyTorch, and enthusiasm for working with messy real-world data.
-- **Senior data engineer** — for our data acquisition and pipelines. Cloud (GCP/AWS), Python, and a strong sense of data quality.
-- **AI engineer / ML ops** — for taking our models to production. Model monitoring, retraining, deployment.
-- **Sales / business development** — for the international rollout of IRIS and Blink. Experience with enterprise SaaS in retail or QSR is a strong plus.
+- **Geospatial data scientist**: experience with H3, GIS, and transformer models. Python, PyTorch, and enthusiasm for working with messy real-world data.
+- **Senior data engineer**: for our data acquisition and pipelines. Cloud (GCP/AWS), Python, and a strong sense of data quality.
+- **AI engineer / ML ops**: for taking our models to production. Model monitoring, retraining, deployment.
+- **Sales / business development**: for the international rollout of IRIS and Blink. Experience with enterprise SaaS in retail or QSR is a strong plus.
 
 Don't see a matching role but still interested? Send an open application. We're happy to talk.
 

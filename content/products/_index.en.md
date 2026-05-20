@@ -1,6 +1,6 @@
 ---
 title: "Products"
-lead: "From IRIS — our flagship used by McDonald's — to Blink, RRI and our proprietary spatial embeddings."
+lead: "From IRIS, our flagship used by McDonald's, to Blink, RRI and our proprietary spatial embeddings."
 ---
 
 <div class="product-block" id="iris">
@@ -34,7 +34,7 @@ IRIS combines 260+ data signals per 120-metre hexagon into a single AI fingerpri
 
 **What McDonald's uses. Now available to you.** Same AI, same data infrastructure. A fraction of the investment.
 
-Blink is the self-serve version of IRIS — a shared environment with no setup, standardised data per market, and cancellable monthly. For brands that want to start now, without hiring a data science team.
+Blink is the self-serve version of IRIS, a shared environment with no setup, standardised data per market, and cancellable monthly. For brands that want to start now, without hiring a data science team.
 
 <ul class="feature-list">
 <li>Catchment visualisation</li>
@@ -57,7 +57,7 @@ An extended version, **Blink Studio**, adds a custom revenue forecasting model b
 
 ## RRI <small>Retail Risk Index</small>
 
-**Risk scores for 300,000+ retail properties** across the Netherlands and Belgium. RRI helps real estate owners, investors and retailers assess the risk profile of any retail location — from prime Amsterdam high streets to peripheral properties in declining regions.
+**Risk scores for 300,000+ retail properties** across the Netherlands and Belgium. RRI helps real estate owners, investors and retailers assess the risk profile of any retail location, from prime Amsterdam high streets to peripheral properties in declining regions.
 
 Per property we combine vacancy data, purchasing power trends, demographic shifts, competitive density and historical revenue data into a single understandable score.
 
@@ -74,11 +74,11 @@ Per property we combine vacancy data, purchasing power trends, demographic shift
 
 ## Spatial embeddings <small>Our proprietary AI technology</small>
 
-**One compact vector per hexagon. For all of Europe.** Our spatial embeddings are a unique AI representation of location — trained in-house, not available anywhere else.
+**One compact vector per hexagon. For all of Europe.** Our spatial embeddings are a unique AI representation of location, trained in-house, not available anywhere else.
 
-Inspired by Google's AlphaEarth (which encodes satellite imagery into vectors), we apply the same encoder-decoder architecture to **socio-economic data**. The encoder compresses 260+ signals per hex into a single vector; the decoder can reconstruct any signal — proof that the embedding captures the full picture, not just a surface summary.
+Inspired by Google's AlphaEarth (which encodes satellite imagery into vectors), we apply the same encoder-decoder architecture to **socio-economic data**. The encoder compresses 260+ signals per hex into a single vector; the decoder can reconstruct any signal, proof that the embedding captures the full picture, not just a surface summary.
 
-The key difference: our model understands **people, behaviour and economic activity** — not just what a place looks like from above.
+The key difference: our model understands **people, behaviour and economic activity**: not just what a place looks like from above.
 
 <ul class="feature-list">
 <li>H3 resolution 10 (~120m per hex)</li>

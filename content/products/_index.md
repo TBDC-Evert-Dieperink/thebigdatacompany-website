@@ -1,6 +1,6 @@
 ---
 title: "Producten"
-lead: "Van IRIS — ons vlaggenschip dat McDonald's gebruikt — tot Blink, RRI en onze proprietary spatial embeddings."
+lead: "Van IRIS, ons vlaggenschip dat McDonald's gebruikt, tot Blink, RRI en onze proprietary spatial embeddings."
 ---
 
 <div class="product-block" id="iris">
@@ -34,7 +34,7 @@ IRIS combineert 260+ data-signalen per hexagon van 120 meter tot één AI-finger
 
 **Wat McDonald's gebruikt. Nu beschikbaar voor u.** Dezelfde AI, dezelfde data-infrastructuur. Een fractie van de investering.
 
-Blink is de zelfbedieningsversie van IRIS — een gedeelde omgeving zonder setup, met gestandaardiseerde data per markt, en maandelijks opzegbaar. Voor merken die nu willen starten, zonder een data science team in te hoeven huren.
+Blink is de zelfbedieningsversie van IRIS, een gedeelde omgeving zonder setup, met gestandaardiseerde data per markt, en maandelijks opzegbaar. Voor merken die nu willen starten, zonder een data science team in te hoeven huren.
 
 <ul class="feature-list">
 <li>Catchment-visualisatie</li>
@@ -57,7 +57,7 @@ Een uitgebreide variant, **Blink Studio**, voegt een aangepast omzetvoorspelling
 
 ## RRI <small>Retail Risk Index</small>
 
-**Risico-score voor 300.000+ winkelpanden** in Nederland en België. RRI helpt vastgoedeigenaren, beleggers en retailers om het risicoprofiel van elke retail-locatie in te schatten — van A-locaties in Amsterdam tot perifere winkelpanden in krimpregio's.
+**Risico-score voor 300.000+ winkelpanden** in Nederland en België. RRI helpt vastgoedeigenaren, beleggers en retailers om het risicoprofiel van elke retail-locatie in te schatten, van A-locaties in Amsterdam tot perifere winkelpanden in krimpregio's.
 
 Per pand combineren we leegstandsdata, koopkracht-ontwikkeling, demografische trends, concurrentie-dichtheid en historische omzettendata tot één begrijpelijke score.
 
@@ -74,11 +74,11 @@ Per pand combineren we leegstandsdata, koopkracht-ontwikkeling, demografische tr
 
 ## Spatiale embeddings <small>Onze proprietary AI-technologie</small>
 
-**Eén compacte vector per hexagon. Voor heel Europa.** Onze spatial embeddings zijn een unieke AI-representatie van locatie — getraind in-house, niet elders verkrijgbaar.
+**Eén compacte vector per hexagon. Voor heel Europa.** Onze spatial embeddings zijn een unieke AI-representatie van locatie, getraind in-house, niet elders verkrijgbaar.
 
-Geïnspireerd door Google's AlphaEarth (dat satellietbeelden codeert tot vectoren), passen wij dezelfde encoder-decoder-architectuur toe op **socio-economische data**. De encoder comprimeert 260+ signalen per hex tot één vector; de decoder kan elk signaal reconstrueren — bewijs dat de embedding het volledige beeld vasthoudt, niet alleen een samenvatting.
+Geïnspireerd door Google's AlphaEarth (dat satellietbeelden codeert tot vectoren), passen wij dezelfde encoder-decoder-architectuur toe op **socio-economische data**. De encoder comprimeert 260+ signalen per hex tot één vector; de decoder kan elk signaal reconstrueren, bewijs dat de embedding het volledige beeld vasthoudt, niet alleen een samenvatting.
 
-Het cruciale verschil: ons model begrijpt **mensen, gedrag en economische activiteit** — niet alleen hoe een plek er van bovenaf uitziet.
+Het cruciale verschil: ons model begrijpt **mensen, gedrag en economische activiteit**: niet alleen hoe een plek er van bovenaf uitziet.
 
 <ul class="feature-list">
 <li>H3 resolutie 10 (~120m per hex)</li>

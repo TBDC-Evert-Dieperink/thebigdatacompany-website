@@ -1,6 +1,6 @@
 ---
 title: "Werken bij"
-lead: "Klein team, grote impact. We werken voor multinationals én voor groeiende merken — vanuit Amsterdam."
+lead: "Klein team, grote impact. We werken voor multinationals én voor groeiende merken, vanuit Amsterdam."
 ---
 
 ## Waarom The Big Data Company?
@@ -13,10 +13,10 @@ We werken hybride vanuit ons kantoor in Amsterdam (Mr. Treublaan 7), met regelma
 
 We groeien voorzichtig. Op dit moment zijn we vooral geïnteresseerd in:
 
-- **Geospatial data scientist** — ervaring met H3, GIS, en transformer-modellen. Python, PyTorch, en plezier in werken met messy real-world data.
-- **Senior data engineer** — voor onze data-acquisitie en pipelines. Cloud (GCP/AWS), Python, en gevoel voor data-kwaliteit.
-- **AI engineer / ML ops** — voor het productie-rijp maken van onze modellen. Modelmonitoring, retraining, deployment.
-- **Sales / business development** — voor onze internationale uitrol van IRIS en Blink. Ervaring met enterprise SaaS in retail of QSR is een grote pre.
+- **Geospatial data scientist**: ervaring met H3, GIS, en transformer-modellen. Python, PyTorch, en plezier in werken met messy real-world data.
+- **Senior data engineer**: voor onze data-acquisitie en pipelines. Cloud (GCP/AWS), Python, en gevoel voor data-kwaliteit.
+- **AI engineer / ML ops**: voor het productie-rijp maken van onze modellen. Modelmonitoring, retraining, deployment.
+- **Sales / business development**: voor onze internationale uitrol van IRIS en Blink. Ervaring met enterprise SaaS in retail of QSR is een grote pre.
 
 Geen passende vacature gezien maar wel benieuwd? Stuur een open sollicitatie. We praten graag.
 
